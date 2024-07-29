@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utillity.css" />
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="close">
+          <img width="30" class="invert" src="close.svg" alt="">
+        </div>
+        <div class="home bg-grey rounded m-1 p-1">
+          <div class="logo">
+            <img class="invert" src="logo.svg" alt="logo" />
+          </div>
+          <ul>
+            <li><img class="invert" src="home.svg" alt="home" />Home</li>
+            <li>
+              <img class="invert" src="search.svg" alt="search logo" />Search
+            </li>
+          </ul>
+        </div>
+        <div class="library bg-grey rounded m-1 p-1">
+          <div class="heading">
+            <img class="invert" src="playlist.svg" alt="playlist" />
+            <h2>Your Library</h2>
+          </div>
+          <div class="songList">
+            <ul>
+
+            </ul>
+          </div>
+          <div class="footer">
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/">
+                <span>Legal</span></a
+                >
+              </div>
+              <div>
+                <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                <span>Safety &amp; Privacy Center</span></a
+                >
+              </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                <span>Privacy Policy</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                <span>Cookies</span></a
+                >
+              </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                <span>About Ads</span></a
+                >
+              </div>
+              <div>
+                <a href="https://www.spotify.com/in-en/accessibility/">
+                  <span>Accessibility</span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right bg-grey rounded">
+            <div class="header">
+              <div class="nav">
+                <div class="hamburgerCont">
+                  <img class="invert hamburger" src="hamburger.svg" alt="">
+                  
+                  <img src="leftarrow.svg" alt="leftarrow" />
+                  <img src="rightarrow.svg" alt="rightarrow" />
+                </div>
+              </div>
+              <div class="buttons">
+                <button class="signinbtn">Sign up</button>
+                <button class="loginbtn">Log in</button>
+              </div>
+        </div>
+        <div class="spotifyPlaylist">
+          <h1>Spotify Playlists</h1>
+          <div class="cardContainer">
+            
+            
+            <div data-folder="Mix" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 36 24"
+                  width="95"
+                  fill="none">
+                  <circle cx="18" cy="12" r="11" fill="green" />
+                  <g transform="translate(1 0)">
+                    <path
+                      d="M24.8906 12.846C24.5371 14.189 22.8667 15.138 19.5257 17.0361C16.296 18.8709 14.6812 19.7884 13.3798 19.4196C12.8418 19.2671 12.3516 18.9776 11.9562 18.5787C11 17.6139 11 15.7426 11 12C11 8.2574 11 6.3861 11.9562 5.42132C12.3516 5.02245 12.8418 4.73288 13.3798 4.58042C14.6812 4.21165 16.296 5.12907 19.5257 6.96393C22.8667 8.86197 24.5371 9.811 24.8906 11.154C25.0365 11.7084 25.0365 12.2916 24.8906 12.846Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                      />
+                    </g>
+                </svg>
+              </div>
+              <img
+              src="ab67616d00001e021a7c767eb53d36e5530e1483.jpeg"
+              alt="spotifyPlaylist"
+              />
+              <h2>Mix Songs</h2>
+              <p>Gentle mood refreshment.</p>
+            </div>
+            
+
+            <div data-folder="Edshreen" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 36 24"
+                  width="95"
+                  fill="none">
+                  <circle cx="18" cy="12" r="11" fill="green" />
+                  <g transform="translate(1 0)">
+                    <path
+                      d="M24.8906 12.846C24.5371 14.189 22.8667 15.138 19.5257 17.0361C16.296 18.8709 14.6812 19.7884 13.3798 19.4196C12.8418 19.2671 12.3516 18.9776 11.9562 18.5787C11 17.6139 11 15.7426 11 12C11 8.2574 11 6.3861 11.9562 5.42132C12.3516 5.02245 12.8418 4.73288 13.3798 4.58042C14.6812 4.21165 16.296 5.12907 19.5257 6.96393C22.8667 8.86197 24.5371 9.811 24.8906 11.154C25.0365 11.7084 25.0365 12.2916 24.8906 12.846Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                      />
+                  </g>
+                </svg>
+              </div>
+              <img
+                src="edsheeran.jpeg"
+                alt="spotifyPlaylist"
+                />
+                <h2>Edsheeran</h2>
+                <p>Hits by Edsheeran.</p>
+              </div>
+              
+              
+              
+              <div data-folder="Talha_Anjum" class="card">
+                <div class="play">
+                  <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 36 24"
+                  width="95"
+                  fill="none">
+                  <circle cx="18" cy="12" r="11" fill="green" />
+                  <g transform="translate(1 0)">
+                    <path
+                      d="M24.8906 12.846C24.5371 14.189 22.8667 15.138 19.5257 17.0361C16.296 18.8709 14.6812 19.7884 13.3798 19.4196C12.8418 19.2671 12.3516 18.9776 11.9562 18.5787C11 17.6139 11 15.7426 11 12C11 8.2574 11 6.3861 11.9562 5.42132C12.3516 5.02245 12.8418 4.73288 13.3798 4.58042C14.6812 4.21165 16.296 5.12907 19.5257 6.96393C22.8667 8.86197 24.5371 9.811 24.8906 11.154C25.0365 11.7084 25.0365 12.2916 24.8906 12.846Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <img
+              src="songs/Talha_Anjum/cover.jpeg"
+              alt="spotifyPlaylist"
+              />
+              <h2>Talha Anjum</h2>
+              <p>Hits by Talha Anjum.</p>
+            </div>
+            
+            
+            <div data-folder="K.K" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 36 24"
+                  width="95"
+                  fill="none">
+                  <circle cx="18" cy="12" r="11" fill="green" />
+                  <g transform="translate(1 0)">
+                    <path
+                      d="M24.8906 12.846C24.5371 14.189 22.8667 15.138 19.5257 17.0361C16.296 18.8709 14.6812 19.7884 13.3798 19.4196C12.8418 19.2671 12.3516 18.9776 11.9562 18.5787C11 17.6139 11 15.7426 11 12C11 8.2574 11 6.3861 11.9562 5.42132C12.3516 5.02245 12.8418 4.73288 13.3798 4.58042C14.6812 4.21165 16.296 5.12907 19.5257 6.96393C22.8667 8.86197 24.5371 9.811 24.8906 11.154C25.0365 11.7084 25.0365 12.2916 24.8906 12.846Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <img
+                src="kk.jpg"
+                alt="spotifyPlaylist"
+              />
+              <h2>KK</h2>
+              <p>Hits by K.K.</p>
+            </div>
+
+            
+            <div data-folder="Zayn_Malik" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 36 24"
+                  width="95"
+                  fill="none">
+                  <circle cx="18" cy="12" r="11" fill="green" />
+                  <g transform="translate(1 0)">
+                    <path
+                      d="M24.8906 12.846C24.5371 14.189 22.8667 15.138 19.5257 17.0361C16.296 18.8709 14.6812 19.7884 13.3798 19.4196C12.8418 19.2671 12.3516 18.9776 11.9562 18.5787C11 17.6139 11 15.7426 11 12C11 8.2574 11 6.3861 11.9562 5.42132C12.3516 5.02245 12.8418 4.73288 13.3798 4.58042C14.6812 4.21165 16.296 5.12907 19.5257 6.96393C22.8667 8.86197 24.5371 9.811 24.8906 11.154C25.0365 11.7084 25.0365 12.2916 24.8906 12.846Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <img
+                src="zayn.jpg"
+                alt="spotifyPlaylist"
+              />
+              <h2>Zayn Malik</h2>
+              <p>Hits by Zayn Malik.</p>
+            </div>
+
+            <div data-folder="Taylor_Swift" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 36 24"
+                  width="95"
+                  fill="none">
+                  <circle cx="18" cy="12" r="11" fill="green" />
+                  <g transform="translate(1 0)">
+                    <path
+                      d="M24.8906 12.846C24.5371 14.189 22.8667 15.138 19.5257 17.0361C16.296 18.8709 14.6812 19.7884 13.3798 19.4196C12.8418 19.2671 12.3516 18.9776 11.9562 18.5787C11 17.6139 11 15.7426 11 12C11 8.2574 11 6.3861 11.9562 5.42132C12.3516 5.02245 12.8418 4.73288 13.3798 4.58042C14.6812 4.21165 16.296 5.12907 19.5257 6.96393C22.8667 8.86197 24.5371 9.811 24.8906 11.154C25.0365 11.7084 25.0365 12.2916 24.8906 12.846Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <img
+                src="Taylor.jpeg"
+                alt="spotifyPlaylist"
+              />
+              <h2>Taylor Swift</h2>
+              <p>Hits by Taylor Swift.</p>
+            </div>
+
+
+
+            <div data-folder="Blake_Shelton" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 36 24"
+                  width="95"
+                  fill="none">
+                  <circle cx="18" cy="12" r="11" fill="green" />
+                  <g transform="translate(1 0)">
+                    <path
+                      d="M24.8906 12.846C24.5371 14.189 22.8667 15.138 19.5257 17.0361C16.296 18.8709 14.6812 19.7884 13.3798 19.4196C12.8418 19.2671 12.3516 18.9776 11.9562 18.5787C11 17.6139 11 15.7426 11 12C11 8.2574 11 6.3861 11.9562 5.42132C12.3516 5.02245 12.8418 4.73288 13.3798 4.58042C14.6812 4.21165 16.296 5.12907 19.5257 6.96393C22.8667 8.86197 24.5371 9.811 24.8906 11.154C25.0365 11.7084 25.0365 12.2916 24.8906 12.846Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <img
+              src="blake.jpg"
+              alt="spotifyPlaylist"
+              />
+              <h2>Blake Shelton</h2>
+              <p>Hits by Blake Shelton.</p>
+            </div>
+            
+            
+
+
+
+
+            <div data-folder="Calum_Scott" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 36 24"
+                  width="95"
+                  fill="none">
+                  <circle cx="18" cy="12" r="11" fill="green" />
+                  <g transform="translate(1 0)">
+                    <path
+                      d="M24.8906 12.846C24.5371 14.189 22.8667 15.138 19.5257 17.0361C16.296 18.8709 14.6812 19.7884 13.3798 19.4196C12.8418 19.2671 12.3516 18.9776 11.9562 18.5787C11 17.6139 11 15.7426 11 12C11 8.2574 11 6.3861 11.9562 5.42132C12.3516 5.02245 12.8418 4.73288 13.3798 4.58042C14.6812 4.21165 16.296 5.12907 19.5257 6.96393C22.8667 8.86197 24.5371 9.811 24.8906 11.154C25.0365 11.7084 25.0365 12.2916 24.8906 12.846Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <img
+                src="calum.jpeg"
+                alt="spotifyPlaylist"
+              />
+              <h2>Claum Scott</h2>
+              <p>Hits by Claum Scott.</p>
+            </div>
+
+
+
+
+
+            <div data-folder="Divine" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 36 24"
+                  width="95"
+                  fill="none">
+                  <circle cx="18" cy="12" r="11" fill="green" />
+                  <g transform="translate(1 0)">
+                    <path
+                      d="M24.8906 12.846C24.5371 14.189 22.8667 15.138 19.5257 17.0361C16.296 18.8709 14.6812 19.7884 13.3798 19.4196C12.8418 19.2671 12.3516 18.9776 11.9562 18.5787C11 17.6139 11 15.7426 11 12C11 8.2574 11 6.3861 11.9562 5.42132C12.3516 5.02245 12.8418 4.73288 13.3798 4.58042C14.6812 4.21165 16.296 5.12907 19.5257 6.96393C22.8667 8.86197 24.5371 9.811 24.8906 11.154C25.0365 11.7084 25.0365 12.2916 24.8906 12.846Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <img
+                src="divine.jpg"
+                alt="spotifyPlaylist"
+              />
+              <h2>Divine</h2>
+              <p>Hits by Divine.</p>
+            </div>
+
+
+
+
+
+
+            <div data-folder="Emiway" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 36 24"
+                  width="95"
+                  fill="none">
+                  <circle cx="18" cy="12" r="11" fill="green" />
+                  <g transform="translate(1 0)">
+                    <path
+                      d="M24.8906 12.846C24.5371 14.189 22.8667 15.138 19.5257 17.0361C16.296 18.8709 14.6812 19.7884 13.3798 19.4196C12.8418 19.2671 12.3516 18.9776 11.9562 18.5787C11 17.6139 11 15.7426 11 12C11 8.2574 11 6.3861 11.9562 5.42132C12.3516 5.02245 12.8418 4.73288 13.3798 4.58042C14.6812 4.21165 16.296 5.12907 19.5257 6.96393C22.8667 8.86197 24.5371 9.811 24.8906 11.154C25.0365 11.7084 25.0365 12.2916 24.8906 12.846Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <img
+                src="emiway.jpg"
+                alt="spotifyPlaylist"
+              />
+              <h2>Emiway Bantai</h2>
+              <p>Hits by Emiway Bantai .</p>
+            </div>
+
+
+
+
+
+
+
+            <div data-folder="Dino_James" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 36 24"
+                  width="95"
+                  fill="none">
+                  <circle cx="18" cy="12" r="11" fill="green" />
+                  <g transform="translate(1 0)">
+                    <path
+                      d="M24.8906 12.846C24.5371 14.189 22.8667 15.138 19.5257 17.0361C16.296 18.8709 14.6812 19.7884 13.3798 19.4196C12.8418 19.2671 12.3516 18.9776 11.9562 18.5787C11 17.6139 11 15.7426 11 12C11 8.2574 11 6.3861 11.9562 5.42132C12.3516 5.02245 12.8418 4.73288 13.3798 4.58042C14.6812 4.21165 16.296 5.12907 19.5257 6.96393C22.8667 8.86197 24.5371 9.811 24.8906 11.154C25.0365 11.7084 25.0365 12.2916 24.8906 12.846Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <img
+                src="dino.jpg"
+                alt="spotifyPlaylist"
+              />
+              <h2>Dino James</h2>
+              <p>Hits by Dino James.</p>
+            </div>
+
+
+
+            <div data-folder="Young_Stunners" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 36 24"
+                  width="95"
+                  fill="none">
+                  <circle cx="18" cy="12" r="11" fill="green" />
+                  <g transform="translate(1 0)">
+                    <path
+                      d="M24.8906 12.846C24.5371 14.189 22.8667 15.138 19.5257 17.0361C16.296 18.8709 14.6812 19.7884 13.3798 19.4196C12.8418 19.2671 12.3516 18.9776 11.9562 18.5787C11 17.6139 11 15.7426 11 12C11 8.2574 11 6.3861 11.9562 5.42132C12.3516 5.02245 12.8418 4.73288 13.3798 4.58042C14.6812 4.21165 16.296 5.12907 19.5257 6.96393C22.8667 8.86197 24.5371 9.811 24.8906 11.154C25.0365 11.7084 25.0365 12.2916 24.8906 12.846Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <img
+                src="young.jpg"
+                alt="spotifyPlaylist"
+              />
+              <h2>Young Stunners</h2>
+              <p>Hits by Young Stunners.</p>
+            </div>
+
+            
+          <div class="playbar">
+            <div class="seekbar">
+                <div class="circle">
+                    
+                </div>
+            </div>
+
+            <div class="abovebar">
+
+              <div class="songinfo">
+                
+              </div>
+              <div class="songbuttons">
+                <img id="previous" src="prevsong.svg" alt="">
+                <img id="play" src="play.svg" alt="">
+                <img id="next" src="nextsong.svg" alt="">
+              </div>
+              <div class="timevol">
+
+                <div class="songtime">
+                  
+                </div>
+
+                <div class="volume">
+                  <img width="28" src="volume.svg" alt="">
+                  <div class="range">
+                    <input type="range" name="volume" id="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
